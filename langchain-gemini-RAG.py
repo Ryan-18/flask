@@ -1,6 +1,10 @@
 import warnings
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
-from langchain import PromptTemplate
+
+from langchain_core.prompts import PromptTemplate
+#from langchain import PromptTemplate
+
+
 from langchain.chains import RetrievalQA
 from langchain.vectorstores import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
