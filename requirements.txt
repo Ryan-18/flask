@@ -1,0 +1,10 @@
+flask
+flask-cors
+langchain
+langchain-google-genai
+chromadb
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+tiktoken
